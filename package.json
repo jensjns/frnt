@@ -1,6 +1,6 @@
 {
   "name": "frnt",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Front-end server for any solution. ",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,7 @@
     "express-dot": "~0.1.0"
   },
   "dependencies": {
-    "request": "~2.30.0"
+    "request": "~2.30.0",
+    "lru-cache": "~2.5.0"
   }
 }
